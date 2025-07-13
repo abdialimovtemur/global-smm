@@ -126,8 +126,12 @@
 }
 
 .no-scroll {
-  overflow: hidden;
+  overflow: hidden !important;
+  height: 100vh !important;
+  position: fixed !important;
+  width: 100vw;
 }
+
 
 .no-scroll .container,
 .no-scroll header,
