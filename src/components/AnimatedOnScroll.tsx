@@ -35,7 +35,7 @@ export default function AnimatedOnScroll({
   return (
     <motion.div
       ref={ref}
-      className={cn("w-full", className)} // <--- W-FULL default qildim
+      className={cn("w-full", className)}
       initial="hidden"
       animate={inView ? "visible" : "hidden"}
       custom={delay}
